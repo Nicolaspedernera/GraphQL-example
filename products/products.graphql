@@ -4,6 +4,11 @@ type Query {
   productById(id:ID!):Product
 }
 
+type Mutation{ 
+  addNewProduct(id:ID! , description: String! , price:Float! ): Product 
+  addNewProductReview(id:ID! , rating:Int! , comment:String ): Review
+}
+
 type Product {
   id: ID!
   description: String!

@@ -9,7 +9,7 @@ const orders = [
           description: 'Old Red Shoe',
           price: 45.11,
         },
-        quantity: 2,
+        quantity: 2, 
       },
     ],
   },
